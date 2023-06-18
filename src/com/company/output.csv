@@ -1,0 +1,11 @@
+$,3*3/4$,shift
+$<3,*3/4$,reduce
+$N,*3/4$,shift
+$N<*,3/4$,shift
+$N<*<3,/4$,reduce
+$N<*N,/4$,shift
+$N<*N</,4$,shift
+$N<*N</<4,$,reduce
+$N<*N</N,$,reduce
+$N<*N,$,reduce
+$N,$,accept

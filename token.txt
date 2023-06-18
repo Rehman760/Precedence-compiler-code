@@ -1,0 +1,4 @@
+     Input: 3 * 2 * 4 / 5 $      
+     Tokens: Literals, Operators, Special Character
+     Lexemes: 3 , * , 2 , * , 4 , / , 5 , $ , 
+     Above Lexemes are mapped into following tokens: <num,3> <*> <num,2> <*> <num,4> </> <num,5> <$> 

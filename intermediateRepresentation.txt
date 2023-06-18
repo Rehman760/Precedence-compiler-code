@@ -1,0 +1,9 @@
+
+Operators sorted in their precedence:
+Operator	Location
+/			1
+/			3
+/			5
+*			7
+*			9
+t1 = 8/9

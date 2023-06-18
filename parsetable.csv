@@ -1,0 +1,16 @@
+Stack,inputs,Action
+$,3*2*4/5$,shift
+$<3,*2*4/5$,reduce
+$N,*2*4/5$,shift
+$N<*,2*4/5$,shift
+$N<*<2,*4/5$,reduce
+$N<*N,*4/5$,reduce
+$N,*4/5$,shift
+$N<*,4/5$,shift
+$N<*<4,/5$,reduce
+$N<*N,/5$,shift
+$N<*N</,5$,shift
+$N<*N</<5,$,reduce
+$N<*N</N,$,reduce
+$N<*N,$,reduce
+$N,$,accept
